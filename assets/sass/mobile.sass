@@ -1,0 +1,21 @@
+$media-mobile: new-breakpoint(max-width 700px 4)
+@include media($media-mobile)
+    body.index
+        header
+            h1
+                +span-columns(4)
+                +omega
+                text-align: center
+            nav
+                display: none
+        section h2
+            text-align: center
+        section.details, section.leaderboard, section.history
+            +span-columns(4)
+            +omega
+        section.details article.current
+            margin: 2rem -1rem
+            padding: 1rem
+        section.leaderboard
+            text-align: center
+            padding-bottom: 2rem
