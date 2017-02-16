@@ -47,8 +47,8 @@
             <p>Each season, the first-place city will win 3 leaderboard points, the second-place city will win 2, and
                the third-place will win 1. The leaderboard never resets.</p>
             <h3>Prizes</h3>
-            <p>Because you're competing as a city, there are no individual prizes, but each season's winning city
-               will get a CodeCup victory cup to display at check-in for future CodeDays!</p>
+            <p>Because you're competing as a city, there are no individual prizes, but each season's first-place city
+               will get a CodeCup victory cup to display at future CodeDays!</p>
         </article>
         <article class="current">
             <h2>Current Challenge</h2>
