@@ -40,12 +40,13 @@
     <section class="details">
         <article class="general">
             <h2>About CodeCup</h2>
-            <p>CodeCup is a nationwide challenge which happens several times a year, from 6:30-7:30pm Pacific Time
-               during every CodeDay. The challenge changes each season, and is announced shortly before CodeDay.</p>
-            <p>Each city is scored as a whole, so it's city-vs-city. The first place city wins a cup to be displayed
-               at future events, and the top three cities win points on the leaderboard (3 for first, 2 for second,
-               1 for first).</p>
-            <p>Participate in CodeCup and help show that your city is the best!</p>
+            <p>CodeCup is a nationwide challenge which happens at each CodeDay starting at 6:30pm Pacific Time. The
+               challenge changes each season.</p>
+            <p>Each city is scored as a whole, so everyone at each CodeDay is on the same team. The first-place city
+               wins a cup to be displayed at future events, and the top three cities win points on the leaderboard
+               (3 for first, 2 for second, 1 for first).</p>
+            <p>The leaderboard does not reset. Participate in CodeCup to help make sure your city is forever recognized
+               as the best!</p>
         </article>
         <article class="current">
             <h2>Current Challenge</h2>
