@@ -1,0 +1,58 @@
+body.index
+    section.details
+        +span-columns(8)
+        article.general
+        article.current
+            border: 1px solid $color-blue
+            padding: 1rem 2rem
+            margin: 3rem 0 2rem -2rem
+
+            p.cta
+                margin-top: 3rem
+                a
+                    padding: 1rem
+                    background-color: $color-blue
+                    border: none
+                    color: $color-white
+
+    section.leaderboard
+        +span-columns(4)
+        +omega
+        padding-left: 1rem
+        ol
+            padding: 0 0 0 1.2rem
+
+    section.history
+        clear: both
+        +span-columns(8)
+        +omega
+        & > ul
+            padding: 0
+            & > li
+                clear: both
+                list-style-type: none
+                padding: 1rem 0
+                border-bottom: 1px solid $color-gray
+                h3
+                    +span-columns(5)
+                    margin-top: 0
+                    font-size: 1rem
+                    font-weight: 700
+                ol, p
+                    +span-columns(7)
+                    +omega
+                    margin-top: 0
+                ol
+                    padding: 0
+                    li
+                        list-style-type: none
+                        &:nth-child(1):before
+                            content: "1st: "
+                        &:nth-child(2):before
+                            content: "2nd: "
+                        &:nth-child(3):before
+                            content: "3rd: "
+                &:after
+                    content: ""
+                    display: block
+                    clear: both

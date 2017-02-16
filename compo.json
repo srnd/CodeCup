@@ -1,0 +1,51 @@
+{
+    "history": [
+        {
+            "year":     2017,
+            "season":   "wntr",
+            "compo":    "ctf",
+            "results":  []
+        },
+        {
+            "year":     2016,
+            "season":   "fall",
+            "compo":    "ctf",
+            "results":  ["Seattle", "Atlanta", "Minneapolis"]
+        },
+        {
+            "year":     2015,
+            "season":   "spr",
+            "compo":    "tweets",
+            "results":  ["Chicago", "Boca Raton"]
+        },
+        {
+            "year":     2014,
+            "season":   "fall",
+            "compo":    "tweets",
+            "results":  ["Colorado", "Seattle"]
+        },
+        {
+            "year":     2014,
+            "season":   "spr",
+            "compo":    "tweets",
+            "results":  ["Chicago", "Portland"]
+        }
+    ],
+    "compos": {
+        "tweets": {
+            "name": "Twitter",
+            "long": "",
+            "scoring": ""
+        },
+        "ctf": {
+            "name": "Capture the Flag",
+            "long": "In Capture the Flag, you'll work quickly through a series of challenges to find &ldquo;flags&rdquo; &mdash; codes which can be entered to mark the challenge complete. There's a beginner track, and an experienced track, so participants of all level can participate.",
+            "scoring": "Cities are ranked by how quickly they complete all of the challenges."
+        },
+        "unannounced": {
+            "name": "Not Yet Announced",
+            "long": "",
+            "scoring": ""
+        }
+    }
+}

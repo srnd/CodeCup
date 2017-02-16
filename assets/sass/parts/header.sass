@@ -1,0 +1,34 @@
+header
+    h1
+        +span-columns(8)
+        a
+            background:
+                image: url(/assets/img/logo.png)
+                repeat: no-repeat
+                size: contain
+                position: 0 50%
+            font-size: 1px
+            text-indent: -100px
+            overflow: hidden
+            width: 10rem
+            height: 2.5rem
+            text-decoration: none
+            border: none
+            display: inline-block
+
+    nav
+        +span-columns(4)
+        +omega
+        padding-top: 2rem
+        ul
+            padding: 0
+            margin: 0
+            li
+                display: inline-block
+                a
+                    &:after
+                        content: " \00BB"
+    &:after
+        content: ""
+        display: block
+        clear: both
