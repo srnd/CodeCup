@@ -32,7 +32,7 @@
         <nav>
             <ul>
                 <?php if ($current->id != "unannounced"): ?>
-                    <li class="challenge"><a href="https://<?=$current->id?>.cup.codeday.org/">Start the Current Challenge</a></li>
+                    <li class="challenge"><a href="https://<?=$current->id?>.codeday.org/">Start the Current Challenge</a></li>
                 <?php endif ?>
             </ul>
         </nav>
@@ -53,10 +53,10 @@
         <article class="current">
             <h2>Current Challenge</h2>
             <?php if ($current->id != "unannounced"): ?>
-                <p>This season's challenge is <a href="https://<?=$current->id?>.cup.codeday.org/"><?=$current->name?>.</a></p>
+                <p>This season's challenge is <a href="https://<?=$current->id?>.codeday.org/"><?=$current->name?>.</a></p>
                 <p><?=$current->long?></p>
                 <p><?=$current->scoring?></p>
-                <p class="cta"><a href="https://<?=$current->id?>.cup.codeday.org/">Start Now</a></p>
+                <p class="cta"><a href="https://<?=$current->id?>.codeday.org/">Start Now</a></p>
             <?php else: ?>
                 <p>This season's challenge will be announced shortly before CodeDay.</p>
             <?php endif ?>
