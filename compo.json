@@ -1,6 +1,12 @@
 {
     "history": [
         {
+            "year": 2017,
+            "season": "spr",
+            "compo": "unannounced",
+            "results": []
+        },
+        {
             "year":     2017,
             "season":   "wntr",
             "compo":    "ctf",

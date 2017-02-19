@@ -74,18 +74,16 @@
         <h2>History</h2>
         <ul>
             <?php foreach ($history as $season): ?>
+                <?php if (isset($season->results) && count($season->results) > 0): ?>
                 <li>
                     <h3><?=substr($season->year, 2)?>-<?=strtoupper($season->season)?>: <?=$compos->{$season->compo}->name?></h3>
-                    <?php if (isset($season->results) && count($season->results) > 0): ?>
                         <ol class="results">
                             <?php foreach ($season->results as $city): ?>
                                 <li><?=$city?></li>
                             <?php endforeach ?>
                         </ol>
-                    <?php else: ?>
-                        <p class="pending">(no results)</p>
-                    <?php endif ?>
-                </li>
+                    </li>
+                <?php endif ?>
             <?php endforeach ?>
         </ul>
     </section>
