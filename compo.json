@@ -4,7 +4,7 @@
             "year":     2017,
             "season":   "wntr",
             "compo":    "ctf",
-            "results":  []
+            "results":  ["Seattle", "Chicago", "Minneapolis"]
         },
         {
             "year":     2016,
