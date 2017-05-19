@@ -32,7 +32,7 @@
         <nav>
             <ul>
                 <?php if ($current->id != "unannounced"): ?>
-                    <li class="challenge"><a href="https://<?=$current->id?>.codeday.org/">Start the Current Challenge</a></li>
+                    <li class="challenge"><a href="<?=$current->link?>">Start the Current Challenge</a></li>
                 <?php endif ?>
             </ul>
         </nav>
@@ -41,7 +41,7 @@
         <article class="general">
             <h2>About CodeCup</h2>
             <p>CodeCup is a nationwide challenge which happens at each CodeDay, starting at 6:30pm Pacific Time. The
-               challenge changes each season.</p>
+               challenge changes each season, and is led by <a href="https://mzhang.me/">Michael Zhang.</a></p>
             <h3>Earning Points</h3>
             <p>All participants at each city compete together: it's city-vs-city.</p>
             <p>Each season, the first-place city will win 3 leaderboard points, the second-place city will win 2, and
@@ -53,10 +53,10 @@
         <article class="current">
             <h2>Current Challenge</h2>
             <?php if ($current->id != "unannounced"): ?>
-                <p>This season's challenge is <a href="https://<?=$current->id?>.codeday.org/"><?=$current->name?>.</a></p>
+                <p>This season's challenge is <a href="<?=$current->link?>"><?=$current->name?>.</a></p>
                 <p><?=$current->long?></p>
                 <p><?=$current->scoring?></p>
-                <p class="cta"><a href="https://<?=$current->id?>.codeday.org/">Start Now</a></p>
+                <p class="cta"><a href="<?=$current->link?>">Start Now</a></p>
             <?php else: ?>
                 <p>This season's challenge will be announced shortly before CodeDay.</p>
             <?php endif ?>

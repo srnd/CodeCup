@@ -3,7 +3,7 @@
         {
             "year": 2017,
             "season": "spr",
-            "compo": "unannounced",
+            "compo": "hungergames",
             "results": []
         },
         {
@@ -23,7 +23,14 @@
         "ctf": {
             "name": "Capture the Flag",
             "long": "In Capture the Flag, you'll work quickly through a series of challenges to find &ldquo;flags&rdquo; &mdash; codes which can be entered to mark the challenge complete. There's a beginner track, and an experienced track, so participants of all level can participate.",
-            "scoring": "Cities are ranked by how quickly they complete all of the challenges."
+            "scoring": "Cities are ranked by how quickly they complete all of the challenges.",
+            "link": "https://ctf.cup.codeday.org"
+        },
+        "hungergames": {
+            "name": "The Hunger Games",
+            "long": "In this simulation of the popular series, you'll build a bots to act as tributes competing against other cities in a turn/tile-based arena. When CodeCup starts, the \"Start\" link will lead to the specifics you'll need to create your bots.",
+            "scoring": "At the end of the hour, all cities' bots will be run against each other, and the longest-surviving cities will receive points.",
+            "link": "https://github.com/StudentRND/CodeCup17SPR"
         },
         "unannounced": {
             "name": "Not Yet Announced",
