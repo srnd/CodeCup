@@ -28,7 +28,7 @@
         },
         "hungergames": {
             "name": "The Hunger Games",
-            "long": "In this simulation of the popular series, you'll build a bots to act as tributes competing against other cities in a turn/tile-based arena. When CodeCup starts, the \"Start\" link will lead to the specifics you'll need to create your bots.",
+            "long": "In this simulation of the popular series, you'll build bots to act as tributes, competing against other cities in a turn/tile-based arena. When CodeCup starts, the \"Start\" link will lead to the specifics you'll need to create your bots.",
             "scoring": "At the end of the hour, all cities' bots will be run against each other, and the longest-surviving cities will receive points.",
             "link": "https://github.com/StudentRND/CodeCup17SPR"
         },
