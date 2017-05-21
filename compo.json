@@ -23,7 +23,7 @@
             "year":     2016,
             "season":   "fall",
             "compo":    "ctf",
-            "results":  ["Seattle", "Atlanta", "Minneapolis"]
+            "results":  ["Seattle", "Minneapolis", "Atlanta"]
         }
     ],
     "compos": {
