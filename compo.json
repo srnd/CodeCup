@@ -3,7 +3,7 @@
         {
             "year": 2017,
             "season": "spr",
-            "compo": "hungergames",
+            "compo": "ctf",
             "results": []
         },
         {
@@ -24,7 +24,7 @@
             "name": "Capture the Flag",
             "long": "In Capture the Flag, you'll work quickly through a series of challenges to find &ldquo;flags&rdquo; &mdash; codes which can be entered to mark the challenge complete. There's a beginner track, and an experienced track, so participants of all level can participate.",
             "scoring": "Cities are ranked by how quickly they complete all of the challenges.",
-            "link": "https://ctf.cup.codeday.org"
+            "link": "https://ctf.codeday.org"
         },
         "hungergames": {
             "name": "The Hunger Games",
