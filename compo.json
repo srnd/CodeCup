@@ -2,6 +2,13 @@
     "history": [
         {
             "year": 2017,
+            "season": "fall",
+            "compo": "unannounced",
+            "results": []
+
+        },
+        {
+            "year": 2017,
             "season": "spr",
             "compo": "ctf",
             "results": ["Minneapolis", "Bay Area", "Chicago"]
