@@ -21,14 +21,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>StudentRND CodeCup</title>
+    <title>CodeCup @ CodeDay</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="index">
 <div class="content">
     <header>
-        <h1><a href="/">StudentRND CodeCup</a></h1>
+        <h1><a href="/">CodeCup @ CodeDay</a></h1>
         <nav>
             <ul>
                 <?php if ($current->id != "unannounced"): ?>
@@ -40,8 +40,9 @@
     <section class="details">
         <article class="general">
             <h2>About CodeCup</h2>
-            <p>CodeCup is a nationwide challenge which happens at each CodeDay, starting at 6:30pm Pacific Time, and
-               presented by Splunk.</p>
+            <p>CodeCup is a nationwide challenge which happens at each CodeDay, starting at 6:30pm Pacific Time,
+               organized by <a href="https://srnd.org/">srnd.org</a> and presented by
+               <a href="https://www.splunk.com/en_us/about-us/splunk4good.html">Splunk.</a></p>
             <h3>Earning Points</h3>
             <p>All participants at each city compete together: it's city-vs-city.</p>
             <p>Each season, the first-place city will win 3 leaderboard points, the second-place city will win 2, and
