@@ -40,8 +40,8 @@
     <section class="details">
         <article class="general">
             <h2>About CodeCup</h2>
-            <p>CodeCup is a nationwide challenge which happens at each CodeDay, starting at 6:30pm Pacific Time. The
-               challenge changes each season, and is led by <a href="https://mzhang.me/">Michael Zhang.</a></p>
+            <p>CodeCup is a nationwide challenge which happens at each CodeDay, starting at 6:30pm Pacific Time, and
+               presented by Splunk.</p>
             <h3>Earning Points</h3>
             <p>All participants at each city compete together: it's city-vs-city.</p>
             <p>Each season, the first-place city will win 3 leaderboard points, the second-place city will win 2, and
@@ -69,6 +69,9 @@
                 <li><?= $city ?> (<?= $points ?> points)</li>
             <?php endforeach ?>
         </ol>
+        <br />
+        <h2>Presented by</h2>
+        <p><a href="https://www.splunk.com/en_us/about-us/splunk4good.html" target="_blank" style="text-decoration:none;border:none"><img src="https://codeday.org/assets/img/sponsors/splunk.png" style="max-width:200px;margin-top:-1.5rem" /></a></p>
     </section>
     <section class="history">
         <h2>History</h2>
