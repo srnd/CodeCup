@@ -1,11 +1,16 @@
 {
     "history": [
         {
+            "year": 2018,
+            "season": "wntr",
+            "compo": "unannounced",
+            "results": []
+        },
+        {
             "year": 2017,
             "season": "fall",
             "compo": "ctf",
-            "results": []
-
+            "results": ["Bay Area", "Seattle", "Minneapolis"]
         },
         {
             "year": 2017,
