@@ -3,8 +3,8 @@
         {
             "year": 2018,
             "season": "wntr",
-            "compo": "unannounced",
-            "results": []
+            "compo": "ctf",
+            "results": ["Atlanta", "Chicago", "Toronto"]
         },
         {
             "year": 2017,
