@@ -2,6 +2,12 @@
     "history": [
         {
             "year": 2018,
+            "season": "fall",
+            "compo": "unannounced",
+            "results": [ ]
+        },
+        {
+            "year": 2018,
             "season": "spr",
             "compo": "ctf",
             "results": ["Bay Area", "Seattle", "LA"]
